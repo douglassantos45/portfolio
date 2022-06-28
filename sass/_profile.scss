@@ -1,0 +1,207 @@
+.profile {
+  
+  .user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .image {
+      img {
+        width: 110px;
+        border-radius: 50%;
+        border: 3px solid var(--primary);
+      }
+
+      margin-bottom: 1rem;
+    }
+
+    .user-name {
+      text-align: center;
+
+      h2 {
+        font-size: 2.2rem;
+      }
+  
+      .description {
+        color: var(--gray-400);
+        font-weight: 500;
+        margin-top: 0.5rem;
+      }
+    }
+
+    .social {
+      margin-top: 1.5rem;
+      a {
+        padding: 0.5rem;
+        color: var(--gray-300);
+        transition: color 0.3s ease-in-out;
+
+        cursor: pointer;
+
+        &:hover {
+          color: var(--primary-hover);
+        }
+
+        &::before {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  .info-profile {
+    .info {
+      grid-auto-flow: column;  
+      margin-top: 3rem;
+      align-items: flex-start;
+
+      div {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+
+        text-align: center;
+
+        span {
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 1.3rem;
+          color: var(--gray-400);
+        }
+      }
+    }
+
+    .contact {
+      grid-auto-flow: column;
+      justify-items: center;
+      gap: 2rem;
+      padding: 3rem;
+
+      .btn-cv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        margin-right: 0;
+        background-color: var(--primary);
+        width: 130px;
+        height: 50px;
+        border-radius: 0.6rem;
+        color: var(--text-color-ligth);
+        transition: background-color 0.3s ease;
+
+        cursor: pointer;
+        
+        svg {
+          color: var(--body-color);
+          margin-left: 0.8rem;
+        }
+
+        &:hover {
+          background-color: var(--primary-hover);
+        }
+      }
+
+      i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--primary-hover);
+        }
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        display: flex;
+        padding: 1rem;
+        background-color: var(--background-dark);
+        border-radius: 0.6rem;
+        color: var(--text-color-ligth);
+  
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+  
+      > a:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+
+    
+  }
+
+  .post {
+    .about-me {
+      margin-top: 3rem;
+      text-align: center;
+      color: var(--gray-200);
+
+      a {
+        color: var(--primary);
+        &::before{
+          color: red;
+        }
+      }
+  
+      &.preview-content {
+        background: linear-gradient(var(--gray-100), transparent);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .preview-content-light {
+      display: none;
+    }
+
+    .continue-reading {
+      font-weight: bold;
+      text-align: center;
+
+      margin: 2rem 0;
+      
+      a {
+        background-color: #9466ff14;
+        color: white;
+        padding: 1.3rem;
+        font-size: 1.2rem;
+        border-radius: 30px;
+
+        transition: all 0.3s ease;
+        
+        &:hover {
+          background-color: var(--primary-darker);
+        }
+      }
+    }
+  }
+}
+
+.type {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+@media (max-width: 320px) {
+  .profile .info-profile .contact button {
+    
+    span {
+      display: none;
+    }
+  }
+}

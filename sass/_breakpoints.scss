@@ -1,0 +1,82 @@
+@media (max-width: 320px) {
+  .profile .info-profile .contact button svg {
+    width: 18px;
+
+  }
+}
+
+@media (max-width: 860px) {
+  .skills-content .skill-data {
+    &.styled-components {
+      display: block;
+      width: 87px;
+    } 
+  }
+  
+}
+
+@media (min-width: 570px) {
+  .skills-content,
+  .projects-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 860px) {
+  :root {
+    font-size: 70%;
+  }
+
+  .social {
+    svg:not(:last-child) {
+      margin-right: 0.6rem;
+    }
+  }
+
+  .info {
+    gap: 3rem;
+  }
+
+  .filters {
+    width: 750px;
+  }
+
+  .skills-content {
+    .skills-box {
+      column-gap: 5rem;
+    }
+
+    .skills-title {
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+
+@media (min-width: 1124px) {
+  :root {
+    font-size: 75%;
+  }
+
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .filters {
+    width: 600px;
+  }
+
+  .styled-components {
+    width: 100%;
+
+    svg {
+      width: 26px !important;
+    }
+  }
+}
+
+@media (min-width: 1980px) {
+  :root {
+    font-size: 10%;
+  }
+}

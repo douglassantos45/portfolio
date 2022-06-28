@@ -1,0 +1,12 @@
+{
+  "name": "bella_rouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live-sass": "node-sass -w sass/main.scss assets/css/styles.min.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

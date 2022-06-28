@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.min.css">
+
+  <title>Portifolio</title>
+</head>
+
+<body>
+  <header class="container header">
+    <i class="bi bi-brightness-high" id="toggle-theme"></i>
+  </header>
+
+  <main class="container">
+    <section class="profile">
+      <div class="user-profile">
+        <div class="image">
+          <img src="./assets/img/profile.png" alt="">
+        </div>
+        <div class="user-name">
+          <h2>Douglas Tott</h2>
+          <span class="description">I'm a <span class="type"></span></span>
+        </div>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/douglas-silva-5a330322b/" class="bi bi-linkedin" target="_blank"></a>
+
+          <a href="http://github.com/douglassantos45" class="bi bi-github" target="_blank"></a>
+        </div>
+
+        <article class="post container">
+          <div class="about-me preview-content">
+            Olá, meu nome é Douglas. Sou estudante de Computação no Instituto Federal baiano de Senhor do Bonfim e
+            apaixonado por tecnologia. Comecei minha jornada como programador no desenvolvimento pessoal de serviços
+            WEB com HTML e CSS estático quando tinha 14 anos. Hoje tenho
+            24 anos e continuo no desenvolvimento WEB,
+            porém, como muitos dizem,
+          </div>
+
+          <div class="continue-reading">
+            <a href="#">Continue reading</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="info-profile">
+        <div class="info grid">
+          <div class="works">
+            <span>7</span>
+            <p>Year of work</p>
+          </div>
+          <div class="customer">
+            <span>6</span>
+            <p>Satisfield<br /> Customer</p>
+          </div>
+          <div class="projects">
+            <span>+20</span>
+            <p>Completed<br /> Projects</p>
+          </div>
+        </div>
+
+        <div class="contact grid">
+          <a href="https://drive.google.com/file/d/1tiCgo2XDhjNRewDZttCkcBltfwII4lGv/view" class="btn btn-cv"
+            target="_blank">Curríclo<i data-feather="download-cloud"></i></a>
+
+          <div>
+            <a href="https://wa.me/5574999586680" class="btn btn-mail" target="_blank"><i
+                class="bi bi-whatsapp"></i></a>
+            <a href="#" class="btn btn-mail"><i class="bi bi-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters container">
+      <ul class="filters-content">
+        <button class="filters-button filter-tab-active" data-target="#projects">Projects</button>
+
+        <button class="filters-button" data-target="#skills">Skill</button>
+      </ul>
+
+      <div class="filters-sections">
+        <div class="projects-content grid filters-active" data-content id="projects">
+          <article class="projects-card">
+            <img src="assets/img/api-events.png"
+              alt="Imagem da aplicação com nome ControleEventos usando Insomnia como ferramenta para testar a aplicação"
+              class="project-img">
+
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">
+                  Backend
+                </span>
+                <h3 class="projects-title">Develop API REST</h3>
+                <a href="https://github.com/douglassantos45/ControleEventos-node16" class="btn-link" target="_blank">
+                  <i data-feather="link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects-card">
+            <img src="./assets/img/Roquet.Q.png"
+              alt="Imagem da tela de login da aplicação para respostas e perguntas que possui uma ilustração de um homem segurando uma representação de um balão de uma mensagem"
+              class="project-img">
+
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">
+                  Web
+                </span>
+                <h3 class="projects-title">Develop page web</h3>
+                <a href="https://github.com/douglassantos45/Rocket.q-Clone" class="btn-link" target="_blank">
+                  <i data-feather="link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects-card">
+            <img src="assets/img/FinansI.png"
+              alt="Ilustração da tela inicial do sistema web para controle de transações possuindo 3 areas uma com as entradas, o outro com a saída e o último com a cor verde tem a representação do total(soma da saída com a entrada)"
+              class="project-img">
+
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">
+                  Web
+                </span>
+                <h3 class="projects-title">Develop page web</h3>
+                <a href="https://github.com/douglassantos45/FINANS-" class="btn-link" target="_blank">
+                  <i data-feather="link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects-card">
+            <img src="assets/img/Finans.png"
+              alt="Ilustração da página de apresentação do sistema financeiro que tem uma mulher loira com blusa com manga longa sorrindo enquanto segura uma moeda"
+              class="project-img">
+
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">
+                  Web
+                </span>
+                <h3 class="projects-title">Develop page web</h3>
+                <a href="https://github.com/douglassantos45/Finans" class="btn-link" target="_blank">
+                  <i data-feather="link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="skills-content grid" data-content id="skills">
+          <div class="skills-area">
+            <h3 class="skills-title">Frontend Developer</h3>
+
+            <div class="skills-box">
+              <div class="skill-group">
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">HTML</h3>
+                    <span class="skill-level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">CSS/SASS</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Javascript</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Tailwind</h3>
+                    <span class="skill-level">basic</span>
+                  </div>
+                </div>
+
+                <div class="skill-data styled-components">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Styled-Components</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Git</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-area">
+            <h3 class="skills-title">Backend Developer</h3>
+
+            <div class="skills-box">
+              <div class="skill-group">
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Python</h3>
+                    <span class="skill-level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Typescript</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">PHP</h3>
+                    <span class="skill-level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">NodeJS</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">GraphqL</h3>
+                    <span class="skill-level">basic</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Knex</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">React JS</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">React Native</h3>
+                    <span class="skill-level">basic</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Mysql</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+
+                <div class="skill-data">
+                  <i data-feather="check-circle"></i>
+                  <div>
+                    <h3 class="skill-name">Postgres</h3>
+                    <span class="skill-level">intermediary</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="container">
+    <span class="footer-copy">
+      &#169; Douglas. All rigths reserved
+
+      <div>
+        Terms & agreements
+        <span> Privacy & terms</span>
+      </div>
+    </span>
+    <div>
+  </footer>
+
+
+  <!-- scripts -->
+  <script src="./assets/js/typed.min.js"></script>
+  <script src="./assets/js/featherIcon.min.js"></script>
+  <script src="./assets/js/scrollReveal.min.js"></script>
+  <script src="./assets/js/script.min.js"></script>
+</body>
+
+</html>

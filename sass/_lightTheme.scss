@@ -1,0 +1,86 @@
+.light-theme {
+  header i {
+    color: var(--text-color);
+  }
+
+  .profile {
+    .user-name {
+      h2 {
+        color: var(--text-color);
+      }
+    
+      .description {
+        color: var(--gray-500);
+      }
+    }
+  
+    .social a {
+      color: var(--gray-800);
+    }
+  }
+
+  .post {
+    .about-me {
+      color: var(--text-color);
+    }
+
+    .about-me.preview-content {
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.1%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .continue-reading {
+      a {
+        color: var(--primary);
+
+        &:hover {
+          background-color: #d6c6fb8c;
+        
+        }
+      }
+    }
+  }
+  
+  .info {
+    color: var(--text-color);
+  
+    p {
+      color: var(--gray-500) !important;
+    }
+  }
+
+  .filters-content {
+    background-color: var(--gray-200);
+    
+    .filter-tab-active {
+      background-color: var(--body-color);
+    }
+  
+    button {
+      color: var(--text-color);
+  
+      &:hover {
+        background-color: var(--body-color);
+      }
+    }
+  }
+
+  .contact {
+    > div a {
+      background-color: var(--gray-200);
+  
+      i {
+        color: var(--text-color)
+      }
+    }
+  }
+
+  .skills-content {
+    color: var(--text-color);
+  }
+
+  footer .footer-copy{
+    color: var(--text-color);
+  }
+}

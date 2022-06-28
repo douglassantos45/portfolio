@@ -1,0 +1,51 @@
+.skills-content {
+  row-gap: 3.5rem;
+
+  .skills-title {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .skills-box {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+
+  .skill-group {
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+  }
+
+  .skill-data {
+    display: flex;
+    column-gap: .5rem;
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+
+  .skill-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .skill-level {
+    font-size: 1rem;
+  }
+}
+
+.filters [data-content] {
+  display: none;
+}
+
+.filters-active[data-content] {
+  display: grid;
+  gap: 2rem;
+}
+

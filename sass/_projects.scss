@@ -1,0 +1,90 @@
+.filters-content {
+  margin: 2rem 0 2.5rem;
+  background-color: var(--background-dark);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5rem;
+
+  .filters-button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1.6rem;
+    color: var(--text-color-ligth);
+    
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-radius: 0.75rem;
+    background-color: transparent;
+    transition: .3s ease;
+    
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--body-color-dark);
+    }
+  }
+
+  .filter-tab-active {
+    background-color: var(--body-color-dark);
+  }
+
+}
+
+.projects-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn-link {
+    
+    background-color: var(--primary);
+    width: 40px;
+    height: 35px;
+    border-radius: 0.6rem;
+    color: var(--body-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.3s ease-in-out;
+
+    svg {
+      width: 16px;
+      
+    }
+
+    &:hover {
+      background-color: var(--primary-hover);
+    }
+  }
+
+  &:hover .projects-modal{
+    bottom: 0;
+  }
+}
+
+.projects-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+  background-image: linear-gradient(180deg, #28282838, #121214f7);
+
+  display: grid;
+  align-items: flex-end;
+  padding: 1rem;
+
+  transition: bottom 0.3s ease-in-out;
+
+  
+}
