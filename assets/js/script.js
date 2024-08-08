@@ -7,6 +7,10 @@ const typed = new Typed(".type", {
   loop: true,
 });
 
+document.querySelector("#birthdate").innerHTML = `${
+  new Date().getFullYear() - 1998
+}`;
+
 /* filters skills */
 const tabs = document.querySelectorAll("[data-target]");
 const tabContents = document.querySelectorAll("[data-content]");
@@ -99,4 +103,12 @@ sr.reveal(".projects-content", { delay: 200 });
 
 feather.replace();
 
-const text = `Olá, meu nome é Douglas. Sou estudante de Computação no Instituto Federal baiano de Senhor do Bonfim e apaixonado por tecnologia. Comecei minha jornada como programador no desenvolvimento pessoal de serviços WEB com HTML e CSS estático quando tinha 14 anos. Hoje tenho 24 anos e continuo no desenvolvimento WEB, porém, como muitos dizem, utilizando os super “poderes” dos frameworks e tentando ser full-stack. Já trabalhei com projetos pessoais como portfólios e blogs usando ReactJS, Styled Components, CMS, API com NodeJS e Typescript. Como acadêmico, ministrei junto com meus colegas um minicurso de INTRODUÇÃO A ALGORITMO EM JAVASCRIPT e criamos um “game” chamado Memory Game, que está disponível na plataforma do Youtube <a href="https://youtu.be/HBbky2hqbOg" class="bi bi-youtube">(link)</a>. Como estudante tenho objetivos tanto acadêmicos como profissionais e junto com colegas, busco sempre criar grupos de estudos para desenvolvermos projetos pessoais como freelancer.`;
+const text = `Olá, meu nome é Douglas e sou estudante de Computação no Instituto Federal da Bahia, em Senhor do Bonfim. Desde os 14 anos, quando comecei a explorar o desenvolvimento web com HTML e CSS estático, minha paixão por tecnologia só tem crescido. Hoje, aos ${
+  new Date().getFullYear() - 1998
+} anos, continuo imerso no desenvolvimento web, utilizando frameworks modernos e aspirando a me tornar um desenvolvedor full-stack.
+<br /><br />
+Minha trajetória inclui a criação de projetos pessoais, como portfólios e blogs, utilizando tecnologias como ReactJS, Styled Components, CMS, e APIs desenvolvidas com NodeJS e Typescript. Além disso, tive a oportunidade de ministrar, junto com meus colegas, um minicurso de Introdução a Algoritmos em JavaScript, no qual também desenvolvemos um jogo chamado Memory Game, disponível no <a href="#" aria-label="link para o vídeo no youtube">YouTube</a>.
+<br /><br />
+Paralelamente, trabalhei em diversos projetos reais como freelancer para vários clientes, o que me proporcionou uma experiência prática valiosa e a oportunidade de aplicar meus conhecimentos em cenários diversos e desafiadores.
+<br /><br />
+Estou focado em alcançar meus objetivos acadêmicos e profissionais e, junto com meus colegas, busco constantemente oportunidades para formar grupos de estudo e desenvolver projetos pessoais como freelancer.`;
