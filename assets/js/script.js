@@ -107,7 +107,7 @@ const text = `Olá, meu nome é Douglas e sou estudante de Computação no Insti
   new Date().getFullYear() - 1998
 } anos, continuo imerso no desenvolvimento web, utilizando frameworks modernos e aspirando a me tornar um desenvolvedor full-stack.
 <br /><br />
-Minha trajetória inclui a criação de projetos pessoais, como portfólios e blogs, utilizando tecnologias como ReactJS, Styled Components, CMS, e APIs desenvolvidas com NodeJS e Typescript. Além disso, tive a oportunidade de ministrar, junto com meus colegas, um minicurso de Introdução a Algoritmos em JavaScript, no qual também desenvolvemos um jogo chamado Memory Game, disponível no <a href="#" aria-label="link para o vídeo no youtube">YouTube</a>.
+Minha trajetória inclui a criação de projetos pessoais, como portfólios e blogs, utilizando tecnologias como ReactJS, Styled Components, CMS, e APIs desenvolvidas com NodeJS e Typescript. Além disso, tive a oportunidade de ministrar, junto com meus colegas, um minicurso de Introdução a Algoritmos em JavaScript, no qual também desenvolvemos um jogo chamado Memory Game, disponível no <a href="https://www.youtube.com/watch?v=h5i7P6rqAhU&t=5s" aria-label="link para o vídeo no youtube" target="_blank">YouTube</a>.
 <br /><br />
 Paralelamente, trabalhei em diversos projetos reais como freelancer para vários clientes, o que me proporcionou uma experiência prática valiosa e a oportunidade de aplicar meus conhecimentos em cenários diversos e desafiadores.
 <br /><br />
