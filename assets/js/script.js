@@ -98,7 +98,7 @@ sr.reveal(".post", { delay: 700 });
 sr.reveal(".info-profile", { interval: 100, delay: 700 });
 sr.reveal(".contact", { delay: 800 });
 sr.reveal(".filters-content", { delay: 200 });
-sr.reveal(".projects-content", { delay: 200 });
+sr.reveal("#projects", { delay: 300 });
 /* END */
 
 feather.replace();
